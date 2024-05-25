@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    margin-left: 80px;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.buttonReview {
+    width: 35%;
+    background-color: #eaefdd;
+    color: black;
+    padding: 10px 0;
+    margin-left: 80px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+}
