@@ -26,7 +26,6 @@ class BookController extends Controller
     {
         // Validate the form data
 
-
         // Create a new book instance
         $book = new Book();
         $book->title = $request->input('title');
@@ -66,13 +65,8 @@ class BookController extends Controller
         
         $selectedGenres = $request->input('genres', []);
 
-       // foreach($selectedGenres as $genreId){
-       //     $book->genres()->attach($genreId);
-       // }
-
         $currentGenres = $book->genres;
 
-       // Detach genres that are no longer selected
         foreach ($currentGenres as $currentGenre) {
             $genreFound = false;
             foreach ($selectedGenres as $selectedGenreId) {
@@ -86,7 +80,6 @@ class BookController extends Controller
            }
        }
    
-       // Attach genres that are newly selected
        foreach ($selectedGenres as $selectedGenreId) {
            $genreExists = false;
            foreach ($currentGenres as $currentGenre) {
