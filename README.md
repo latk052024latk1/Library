@@ -1,10 +1,10 @@
-# Filmbase
+# Library
 A web application that represents a database of stuff, related to iterature, allows users to search for books and authors, leave reviews, and access an admin dashboard for managing content.
 
 ## Features
 
 - User authentication
-- Movie/series search
+- Books/authors search
 - User reviews
 - Admin dashboard for CRUD tasks
 
