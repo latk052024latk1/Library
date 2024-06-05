@@ -28,8 +28,8 @@ A web application that represents a database of stuff, related to iterature, all
 
 ## Technologies Used
 
-- PHP
-- Laravel
-- MySQL
+- PHP 8.x
+- Laravel 10.x
+- MySQL 8.x
 - Laravel Breeze
 - Laravel Vite
